@@ -5,7 +5,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://astronaut.github.io',
-	base: 'MoTrans-Blog',
+	site: 'https://motranstest.nanaraku.cn',
 	integrations: [mdx(), sitemap()],
 });
